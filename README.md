@@ -17,6 +17,28 @@ static void feeder(void) {
   //myself->feedBuffer();
   myself->DREQFlag = true;
 }
+
+void loop() {
+    
+  /* eziya76, when IRQ fires, handler set DREQFlag */
+  if(musicPlayer.DREQFlag) {
+    /* feed buffer when DREQ interrupt */
+    musicPlayer.feedBuffer();
+    musicPlayer.DREQFlag = false;
+  }
+
+  // File is playing in the background
+  static boolean printed = false;
+  if (musicPlayer.stopped()) {
+    if(!printed) {
+      Serial.println("Done playing music");    
+      printed = true;
+    }    
+  }
+  
+  /* eziya76, remove delay to handle DREQ interrupt ASAP */
+}
+
 ```
 
 I also added some code for LCSoft module. 
