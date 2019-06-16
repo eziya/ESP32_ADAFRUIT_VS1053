@@ -144,10 +144,6 @@ void loop() {
     if (c == 's') {
       if(!musicPlayer.stopped()) {
         musicPlayer.stopPlaying();
-      } else {        
-        musicPlayer.startPlayingFile("/track001.mp3");      
-        Serial.println("Start playing music");  
-        printed = false;
       }      
     }
     
@@ -160,6 +156,20 @@ void loop() {
         Serial.println("Resumed");
         musicPlayer.pausePlaying(false);
       }
+    }
+
+    if (c == '1') {
+      musicPlayer.stopPlaying();
+      musicPlayer.startPlayingFile("/track001.mp3");      
+      Serial.println("Start playing music");  
+      printed = false;
+    }
+
+    if (c == '2') {
+      musicPlayer.stopPlaying();
+      musicPlayer.startPlayingFile("/track002.mp3");      
+      Serial.println("Start playing music");  
+      printed = false;
     }
   }
   
