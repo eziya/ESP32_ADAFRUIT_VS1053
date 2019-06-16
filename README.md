@@ -4,7 +4,7 @@ Modified Adafruit VS1053 Library for ESP32 to prevent exception.
 When I downloaded Adafruit VS1053 Library, It didn't work properly for ESP32.<br>
 https://github.com/adafruit/Adafruit_VS1053_Library<br>
 <br>
-I read some articles in the issue forum and knew that interrupt handling cause exception like below.<br>
+I read some articles in the issue forum and found that interrupt handling causes the exception like below.<br>
 ![exception](./exception1.JPG)<br>
 
 I fixed Adafruit_VS1053 source and header files. 
