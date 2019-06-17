@@ -73,7 +73,7 @@ void setup() {
      while (1);
   }
 
-  /* eziya76, LCSoft VS1053 patch. Refer to https://www.stm32duino.com/viewtopic.php?t=3989 */
+  /* eziya76, LC Technology VS1053 patch. Refer to https://www.stm32duino.com/viewtopic.php?t=3989 */
   musicPlayer.sciWrite(VS1053_REG_WRAMADDR, VS1053_GPIO_DDR);
   musicPlayer.sciWrite(VS1053_REG_WRAM, 3);
   musicPlayer.sciWrite(VS1053_REG_WRAMADDR, VS1053_GPIO_ODATA);
