@@ -94,7 +94,7 @@ void setup() {
   printDirectory(SD.open("/"), 0);
 
   // Set volume for left, right channels. lower numbers == louder volume!
-  musicPlayer.setVolume(75,75);  
+  musicPlayer.setVolume(30,30);  
     
 #if defined(__AVR_ATmega32U4__) 
   // Timer interrupts are not suggested, better to use DREQ interrupt!
