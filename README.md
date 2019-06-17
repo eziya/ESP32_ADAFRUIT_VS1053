@@ -4,7 +4,7 @@ Modified Adafruit VS1053 Library for ESP32 to prevent exception.
 When I downloaded Adafruit VS1053 Library, It didn't work properly for ESP32.<br>
 https://github.com/adafruit/Adafruit_VS1053_Library<br>
 <br>
-I read some articles in the issue forum and knew that interrupt handling cause exception like below.<br>
+I read some articles in the issue forum and found that interrupt handling causes the exception like below.<br>
 ![exception](./exception1.JPG)<br>
 
 I fixed Adafruit_VS1053 source and header files. 
@@ -59,3 +59,6 @@ I learned it from here (https://www.stm32duino.com/viewtopic.php?t=3989)<br>
 
 When I modified and added like above, I was able to listen my MP3 songs.
 ![fixed](./fixed.JPG)<br>
+<br>
+[![video](https://i9.ytimg.com/vi/WfA05_ioqfI/mq3.jpg?sqp=CPiYnugF&rs=AOn4CLBlKp96c1jQ1q-y7Q8BtrQBglsGUQ)](https://youtu.be/WfA05_ioqfI)
+
