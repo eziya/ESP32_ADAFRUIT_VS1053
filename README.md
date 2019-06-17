@@ -41,11 +41,11 @@ void loop() {
 
 ```
 
-I also added some code for LCSoft module. 
+I also added some code for LC Technology module. 
 I learned it from here (https://www.stm32duino.com/viewtopic.php?t=3989)<br>
 
 ```
-/* eziya76, LCSoft VS1053 patch. Refer to https://www.stm32duino.com/viewtopic.php?t=3989 */
+/* eziya76, LC Technology VS1053 patch. Refer to https://www.stm32duino.com/viewtopic.php?t=3989 */
   musicPlayer.sciWrite(VS1053_REG_WRAMADDR, VS1053_GPIO_DDR);
   musicPlayer.sciWrite(VS1053_REG_WRAM, 3);
   musicPlayer.sciWrite(VS1053_REG_WRAMADDR, VS1053_GPIO_ODATA);
