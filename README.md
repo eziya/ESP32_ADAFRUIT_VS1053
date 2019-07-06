@@ -60,5 +60,5 @@ I learned it from here (https://www.stm32duino.com/viewtopic.php?t=3989)<br>
 When I modified and added like above, I was able to listen my MP3 songs.
 ![fixed](./fixed.JPG)<br>
 <br>
-[![video](https://i9.ytimg.com/vi/WfA05_ioqfI/mq3.jpg?sqp=CPiYnugF&rs=AOn4CLBlKp96c1jQ1q-y7Q8BtrQBglsGUQ)](https://youtu.be/WfA05_ioqfI)
+[![video](https://i9.ytimg.com/vi/WfA05_ioqfI/mq3.jpg?sqp=CLCzgekF&rs=AOn4CLDN-F8AK3sw5Am9waLFoIwh0UVEKA)](https://youtu.be/WfA05_ioqfI)
 
